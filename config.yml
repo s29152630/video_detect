@@ -1,0 +1,21 @@
+---
+profile: "DEV"
+
+blob:
+  storage_account:
+    - name: "account1"
+      connection_string: "connection-string1"
+    - name: "account2"
+      connection_string: "connection-string2"
+
+image_analysis:
+  - vision_key: "vision_key_value"
+    vision_endpoint: "vision_endpoint_value"
+
+open_ai:
+  - api_type: "azure"
+    api_base: "OPENAI_API_BASE" 
+    api_version: "2023-03-15-preview"
+    api_key: "OPENAI_API_KEY"
+    api_engine: "gpt-35-turbo"
+
